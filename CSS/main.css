@@ -1,0 +1,181 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+body{
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.header{
+    background: #F1F1F1;
+}
+.container{
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 46px;
+}
+.logo{
+    position: relative;
+    padding-right: 12px;
+}
+.Kelvin{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    
+}
+.yellow-pont{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: #FDA300;
+
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.nav-button{
+    display: none;
+}
+.menu-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000;
+}
+.menu-link:hover{
+    color: #606060;
+    border-bottom: 2px solid #606060;
+    
+}
+.content-section{
+    display: flex;
+    justify-content: space-between;
+}
+.text-section{
+    margin-top: 203px;
+    max-width: 500px;
+}
+.main{
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 66px;
+}
+.main-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    margin-top: 20px;
+}
+.img{
+    margin-top: 76px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 0px;
+    flex-wrap: wrap;
+}
+.cards{
+    flex: 1 1 0;
+    min-width: 315px;
+}
+.skills-headers{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 30px 0px 10px 0px;
+    text-transform: uppercase;
+}
+.skills-p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    max-width: 370px;
+}
+.portfolio-section{
+    background: #F1F1F1;
+    padding: 90px 0px;
+}
+.wrapper-portfolio{
+    text-align: center;
+}
+.portfolio-header{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+}
+.links-wrap{
+    margin-top: 40px;
+}
+.portfolio-links{
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #070707;
+}
+.portfolio-links:link{
+    text-decoration: underline;
+}
+.first-img{
+    margin-top: 70px;
+}
+.second-img,.third-img{
+    margin-top: 90px;
+}
+/*--------FOOTER------------------------------------------------*/
+
+.contacts-section{
+    padding: 90px 0px;
+    text-align: center;
+}
+.contact-wrapper{
+    max-width: 342px;
+    margin: 0 auto;
+}
+.contacts{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+}
+.contacts-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 40px;
+}
+.black-btn{
+    background: #070707;
+    padding: 7px 22px;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+.black-btn-link{
+    color: #FFFFFF;
+}
+.icons-media{
+    margin-top: 80px;
+    
+}
+.social-media-wrap{
+    display: flex;  
+    justify-content: space-between;
+    
+}
+.footer-text{
+    margin-top: 40px;
+}
